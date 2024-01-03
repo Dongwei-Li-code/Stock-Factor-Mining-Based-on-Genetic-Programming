@@ -1,0 +1,11 @@
+,fitness,expression,depth,length
+factor_1,0.05969595900182339,"sub(div(Open_Lag1, Adj Close_Lag20), inv(High_Lag3))",2,6
+factor_2,0.05912698084993743,"sub(log(min(div(Open_Lag3, Adj Close_Lag20), min(High_Lag5, Open_Lag5))), inv(High_Lag3))",4,11
+factor_3,0.059442302185970054,"inv(div(Low_Lag5, sub(Low_Lag3, Adj Close_Lag20)))",3,6
+factor_4,0.05919880509388213,"log(min(div(Open_Lag3, Adj Close_Lag20), div(Open_Lag1, Adj Close_Lag20)))",3,8
+factor_5,0.059318259989650575,"sub(div(High_Lag1, Adj Close_Lag20), inv(High_Lag3))",2,6
+factor_6,0.0588134286495063,"sub(inv(sub(Open_Lag20, div(Open_Lag5, Adj Close_Lag20))), inv(div(Adj Close_Lag20, High_Lag1)))",4,11
+factor_7,0.05880226037307815,"log(min(div(Open_Lag3, Adj Close_Lag20), sub(div(High_Lag3, Adj Close_Lag20), inv(High_Lag3))))",4,11
+factor_8,0.059021333868064664,"inv(sub(div(Open_Lag3, Adj Close_Lag20), inv(High_Lag3)))",3,7
+factor_9,0.05880133779507164,"sub(sub(div(High_Lag3, Adj Close_Lag20), inv(High_Lag3)), inv(High_Lag3))",3,9
+factor_10,0.05881894435438592,"sub(div(High_Lag3, Adj Close_Lag20), inv(Open_Lag1))",2,6
